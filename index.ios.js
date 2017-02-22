@@ -9,10 +9,19 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  NativeModules,
 } from 'react-native';
+import RNLib from 'react-native-lib';
 
 export default class LibTest extends Component {
+  componentDidMount() {
+    console.log('RNLib');
+    console.log(RNLib);
+    console.log('NativeModules');
+    console.log(NativeModules);
+  }
+
   render() {
     return (
       <View style={styles.container}>

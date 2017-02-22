@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-native": "^0.41.2",
-    "react-native-lib": "github:pgarciacamou/react-native-lib#master"
+    "react-native-lib": "pgarciacamou/react-native-lib#master"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
